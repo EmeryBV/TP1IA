@@ -1,0 +1,378 @@
+16
+R1;1;2;3;4;5;6;7;8;9;10;11;12;13;14;15;16
+R2;1;2;3;4;5;6;7;8;9;10;11;12;13;14;15;16
+R3;1;2;3;4;5;6;7;8;9;10;11;12;13;14;15;16
+R4;1;2;3;4;5;6;7;8;9;10;11;12;13;14;15;16
+R5;1;2;3;4;5;6;7;8;9;10;11;12;13;14;15;16
+R6;1;2;3;4;5;6;7;8;9;10;11;12;13;14;15;16
+R7;1;2;3;4;5;6;7;8;9;10;11;12;13;14;15;16
+R8;1;2;3;4;5;6;7;8;9;10;11;12;13;14;15;16
+R9;1;2;3;4;5;6;7;8;9;10;11;12;13;14;15;16
+R10;1;2;3;4;5;6;7;8;9;10;11;12;13;14;15;16
+R11;1;2;3;4;5;6;7;8;9;10;11;12;13;14;15;16
+R12;1;2;3;4;5;6;7;8;9;10;11;12;13;14;15;16
+R13;1;2;3;4;5;6;7;8;9;10;11;12;13;14;15;16
+R14;1;2;3;4;5;6;7;8;9;10;11;12;13;14;15;16
+R15;1;2;3;4;5;6;7;8;9;10;11;12;13;14;15;16
+R16;1;2;3;4;5;6;7;8;9;10;11;12;13;14;15;16
+120
+exp
+R1;R2
+R1!=R2 && Math.abs(R1-R2)!="1"
+exp
+R1;R3
+R1!=R3 && Math.abs(R1-R3)!="2"
+exp
+R1;R4
+R1!=R4 && Math.abs(R1-R4)!="3"
+exp
+R1;R5
+R1!=R5 && Math.abs(R1-R5)!="4"
+exp
+R1;R6
+R1!=R6 && Math.abs(R1-R6)!="5"
+exp
+R1;R7
+R1!=R7 && Math.abs(R1-R7)!="6"
+exp
+R1;R8
+R1!=R8 && Math.abs(R1-R8)!="7"
+exp
+R1;R9
+R1!=R9 && Math.abs(R1-R9)!="8"
+exp
+R1;R10
+R1!=R10 && Math.abs(R1-R10)!="9"
+exp
+R1;R11
+R1!=R11 && Math.abs(R1-R11)!="10"
+exp
+R1;R12
+R1!=R12 && Math.abs(R1-R12)!="11"
+exp
+R1;R13
+R1!=R13 && Math.abs(R1-R13)!="12"
+exp
+R1;R14
+R1!=R14 && Math.abs(R1-R14)!="13"
+exp
+R1;R15
+R1!=R15 && Math.abs(R1-R15)!="14"
+exp
+R1;R16
+R1!=R16 && Math.abs(R1-R16)!="15"
+exp
+R2;R3
+R2!=R3 && Math.abs(R2-R3)!="1"
+exp
+R2;R4
+R2!=R4 && Math.abs(R2-R4)!="2"
+exp
+R2;R5
+R2!=R5 && Math.abs(R2-R5)!="3"
+exp
+R2;R6
+R2!=R6 && Math.abs(R2-R6)!="4"
+exp
+R2;R7
+R2!=R7 && Math.abs(R2-R7)!="5"
+exp
+R2;R8
+R2!=R8 && Math.abs(R2-R8)!="6"
+exp
+R2;R9
+R2!=R9 && Math.abs(R2-R9)!="7"
+exp
+R2;R10
+R2!=R10 && Math.abs(R2-R10)!="8"
+exp
+R2;R11
+R2!=R11 && Math.abs(R2-R11)!="9"
+exp
+R2;R12
+R2!=R12 && Math.abs(R2-R12)!="10"
+exp
+R2;R13
+R2!=R13 && Math.abs(R2-R13)!="11"
+exp
+R2;R14
+R2!=R14 && Math.abs(R2-R14)!="12"
+exp
+R2;R15
+R2!=R15 && Math.abs(R2-R15)!="13"
+exp
+R2;R16
+R2!=R16 && Math.abs(R2-R16)!="14"
+exp
+R3;R4
+R3!=R4 && Math.abs(R3-R4)!="1"
+exp
+R3;R5
+R3!=R5 && Math.abs(R3-R5)!="2"
+exp
+R3;R6
+R3!=R6 && Math.abs(R3-R6)!="3"
+exp
+R3;R7
+R3!=R7 && Math.abs(R3-R7)!="4"
+exp
+R3;R8
+R3!=R8 && Math.abs(R3-R8)!="5"
+exp
+R3;R9
+R3!=R9 && Math.abs(R3-R9)!="6"
+exp
+R3;R10
+R3!=R10 && Math.abs(R3-R10)!="7"
+exp
+R3;R11
+R3!=R11 && Math.abs(R3-R11)!="8"
+exp
+R3;R12
+R3!=R12 && Math.abs(R3-R12)!="9"
+exp
+R3;R13
+R3!=R13 && Math.abs(R3-R13)!="10"
+exp
+R3;R14
+R3!=R14 && Math.abs(R3-R14)!="11"
+exp
+R3;R15
+R3!=R15 && Math.abs(R3-R15)!="12"
+exp
+R3;R16
+R3!=R16 && Math.abs(R3-R16)!="13"
+exp
+R4;R5
+R4!=R5 && Math.abs(R4-R5)!="1"
+exp
+R4;R6
+R4!=R6 && Math.abs(R4-R6)!="2"
+exp
+R4;R7
+R4!=R7 && Math.abs(R4-R7)!="3"
+exp
+R4;R8
+R4!=R8 && Math.abs(R4-R8)!="4"
+exp
+R4;R9
+R4!=R9 && Math.abs(R4-R9)!="5"
+exp
+R4;R10
+R4!=R10 && Math.abs(R4-R10)!="6"
+exp
+R4;R11
+R4!=R11 && Math.abs(R4-R11)!="7"
+exp
+R4;R12
+R4!=R12 && Math.abs(R4-R12)!="8"
+exp
+R4;R13
+R4!=R13 && Math.abs(R4-R13)!="9"
+exp
+R4;R14
+R4!=R14 && Math.abs(R4-R14)!="10"
+exp
+R4;R15
+R4!=R15 && Math.abs(R4-R15)!="11"
+exp
+R4;R16
+R4!=R16 && Math.abs(R4-R16)!="12"
+exp
+R5;R6
+R5!=R6 && Math.abs(R5-R6)!="1"
+exp
+R5;R7
+R5!=R7 && Math.abs(R5-R7)!="2"
+exp
+R5;R8
+R5!=R8 && Math.abs(R5-R8)!="3"
+exp
+R5;R9
+R5!=R9 && Math.abs(R5-R9)!="4"
+exp
+R5;R10
+R5!=R10 && Math.abs(R5-R10)!="5"
+exp
+R5;R11
+R5!=R11 && Math.abs(R5-R11)!="6"
+exp
+R5;R12
+R5!=R12 && Math.abs(R5-R12)!="7"
+exp
+R5;R13
+R5!=R13 && Math.abs(R5-R13)!="8"
+exp
+R5;R14
+R5!=R14 && Math.abs(R5-R14)!="9"
+exp
+R5;R15
+R5!=R15 && Math.abs(R5-R15)!="10"
+exp
+R5;R16
+R5!=R16 && Math.abs(R5-R16)!="11"
+exp
+R6;R7
+R6!=R7 && Math.abs(R6-R7)!="1"
+exp
+R6;R8
+R6!=R8 && Math.abs(R6-R8)!="2"
+exp
+R6;R9
+R6!=R9 && Math.abs(R6-R9)!="3"
+exp
+R6;R10
+R6!=R10 && Math.abs(R6-R10)!="4"
+exp
+R6;R11
+R6!=R11 && Math.abs(R6-R11)!="5"
+exp
+R6;R12
+R6!=R12 && Math.abs(R6-R12)!="6"
+exp
+R6;R13
+R6!=R13 && Math.abs(R6-R13)!="7"
+exp
+R6;R14
+R6!=R14 && Math.abs(R6-R14)!="8"
+exp
+R6;R15
+R6!=R15 && Math.abs(R6-R15)!="9"
+exp
+R6;R16
+R6!=R16 && Math.abs(R6-R16)!="10"
+exp
+R7;R8
+R7!=R8 && Math.abs(R7-R8)!="1"
+exp
+R7;R9
+R7!=R9 && Math.abs(R7-R9)!="2"
+exp
+R7;R10
+R7!=R10 && Math.abs(R7-R10)!="3"
+exp
+R7;R11
+R7!=R11 && Math.abs(R7-R11)!="4"
+exp
+R7;R12
+R7!=R12 && Math.abs(R7-R12)!="5"
+exp
+R7;R13
+R7!=R13 && Math.abs(R7-R13)!="6"
+exp
+R7;R14
+R7!=R14 && Math.abs(R7-R14)!="7"
+exp
+R7;R15
+R7!=R15 && Math.abs(R7-R15)!="8"
+exp
+R7;R16
+R7!=R16 && Math.abs(R7-R16)!="9"
+exp
+R8;R9
+R8!=R9 && Math.abs(R8-R9)!="1"
+exp
+R8;R10
+R8!=R10 && Math.abs(R8-R10)!="2"
+exp
+R8;R11
+R8!=R11 && Math.abs(R8-R11)!="3"
+exp
+R8;R12
+R8!=R12 && Math.abs(R8-R12)!="4"
+exp
+R8;R13
+R8!=R13 && Math.abs(R8-R13)!="5"
+exp
+R8;R14
+R8!=R14 && Math.abs(R8-R14)!="6"
+exp
+R8;R15
+R8!=R15 && Math.abs(R8-R15)!="7"
+exp
+R8;R16
+R8!=R16 && Math.abs(R8-R16)!="8"
+exp
+R9;R10
+R9!=R10 && Math.abs(R9-R10)!="1"
+exp
+R9;R11
+R9!=R11 && Math.abs(R9-R11)!="2"
+exp
+R9;R12
+R9!=R12 && Math.abs(R9-R12)!="3"
+exp
+R9;R13
+R9!=R13 && Math.abs(R9-R13)!="4"
+exp
+R9;R14
+R9!=R14 && Math.abs(R9-R14)!="5"
+exp
+R9;R15
+R9!=R15 && Math.abs(R9-R15)!="6"
+exp
+R9;R16
+R9!=R16 && Math.abs(R9-R16)!="7"
+exp
+R10;R11
+R10!=R11 && Math.abs(R10-R11)!="1"
+exp
+R10;R12
+R10!=R12 && Math.abs(R10-R12)!="2"
+exp
+R10;R13
+R10!=R13 && Math.abs(R10-R13)!="3"
+exp
+R10;R14
+R10!=R14 && Math.abs(R10-R14)!="4"
+exp
+R10;R15
+R10!=R15 && Math.abs(R10-R15)!="5"
+exp
+R10;R16
+R10!=R16 && Math.abs(R10-R16)!="6"
+exp
+R11;R12
+R11!=R12 && Math.abs(R11-R12)!="1"
+exp
+R11;R13
+R11!=R13 && Math.abs(R11-R13)!="2"
+exp
+R11;R14
+R11!=R14 && Math.abs(R11-R14)!="3"
+exp
+R11;R15
+R11!=R15 && Math.abs(R11-R15)!="4"
+exp
+R11;R16
+R11!=R16 && Math.abs(R11-R16)!="5"
+exp
+R12;R13
+R12!=R13 && Math.abs(R12-R13)!="1"
+exp
+R12;R14
+R12!=R14 && Math.abs(R12-R14)!="2"
+exp
+R12;R15
+R12!=R15 && Math.abs(R12-R15)!="3"
+exp
+R12;R16
+R12!=R16 && Math.abs(R12-R16)!="4"
+exp
+R13;R14
+R13!=R14 && Math.abs(R13-R14)!="1"
+exp
+R13;R15
+R13!=R15 && Math.abs(R13-R15)!="2"
+exp
+R13;R16
+R13!=R16 && Math.abs(R13-R16)!="3"
+exp
+R14;R15
+R14!=R15 && Math.abs(R14-R15)!="1"
+exp
+R14;R16
+R14!=R16 && Math.abs(R14-R16)!="2"
+exp
+R15;R16
+R15!=R16 && Math.abs(R15-R16)!="1"
