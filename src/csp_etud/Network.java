@@ -95,12 +95,12 @@ public class Network {
 			addConstraint(c);
 		}
 //		System.out.println(toString());
-		triVariable();
+//		max_deg();
 //		AC3();
 //		System.out.println(toString());
 
 	}
-	public void triVariable() {
+	public void max_deg() {
 		LinkedHashMap<String,List<Object>> newVarDom = new LinkedHashMap<>();
 		HashMap<String, Integer> compteur = new HashMap<String, Integer>();
 		for (String key : varDom.keySet()) {
@@ -120,6 +120,7 @@ public class Network {
 				Map.Entry::getKey,
 				Map.Entry::getValue,
 				(oldValue, newValue) -> oldValue, LinkedHashMap::new));
+		
 		for (String keyC : compteur.keySet()) {
 			newVarDom.put(keyC,null);
 			for (String keyD : varDom.keySet()) {
@@ -264,7 +265,7 @@ public class Network {
 
 		String var = getVar(assignment, constraint);
 		if (var == null) { // Pour les contraintes à une seule variable
-			return !constraint.violation(assignment);
+			return !constraint.violationOpt(assignment);
 		}
 		else {
 			// Pour chaque valeur possible dans le domaine de la variable
@@ -273,7 +274,7 @@ public class Network {
 
 				// Si on est arrivé au bout de la récursivité (que chaque variable de la contrainte a une valeur assignée)
 				if (vars.size() == depth + 1) {
-					if (!constraint.violation(assignment)) { // Si l'assignation ne viole pas la contrainte il n'y a pas à retirer la valeur de cette variable
+					if (!constraint.violationOpt(assignment)) { // Si l'assignation ne viole pas la contrainte il n'y a pas à retirer la valeur de cette variable
 						return true;
 					}
 				}

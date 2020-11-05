@@ -82,20 +82,23 @@ public class ConstraintExt extends Constraint{
 	 * @param a l'assignation à tester
 	 * @return vrai ssi l'assignation viole la contrainte 
 	 */
-	
+
 	public boolean violation(Assignment a) {
-		boolean validTuple = true;
 		for(List<Object> tuple : this.tuples){
+			boolean validTuple = true;
 			for(String variable : a.getVars()){
 				if(this.getVars().contains(variable)){
 					if(!((a.get(variable)).equals(tuple.get(this.getVars().indexOf(variable))))){
 						validTuple = false;
 					}
 				}
+				if(!validTuple) break;
 			}
+			if(validTuple) return false;
 		}
-		return validTuple;
+		return true;
 	}
+
 
 	public boolean violationOpt(Assignment a) {
 

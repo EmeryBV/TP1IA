@@ -55,12 +55,12 @@ public class ConstraintExp extends Constraint {
 		{ System.err.println("probleme dans: "+ expression); }
 
 		//System.out.println(assigned_expression);
-		return false;
+		return true;
 	}
 
 	@Override
 	public boolean violationOpt(Assignment a) {
-		return violation( a) ;
+		return violation(a) ;
 	}
 
 	@Override

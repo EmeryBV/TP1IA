@@ -177,7 +177,7 @@ public class CSP {
 		private boolean consistent(String lastAssignedVar) {
 			List<Constraint> constraints = network.getConstraints(lastAssignedVar);
 			for (int i = 0; i < constraints.size(); i++) {
-				if (constraints.get(i).violationOpt(assignment))
+				if (constraints.get(i).violation(assignment))
 					return false;
 			}
 			return true;
